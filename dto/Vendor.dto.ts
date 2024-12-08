@@ -7,6 +7,7 @@ export interface CreateVendorInput {
     address: string,
     pincode: string,
     password: string,
+    foods: [string]
 };
 
 export interface EditVendorProfileInput {

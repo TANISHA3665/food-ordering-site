@@ -19,7 +19,7 @@ export const CreateVendor = async (req: Request, res: Response): Promise<any> =>
     const existingVendor = await FindVendor('', email);
 
     if (existingVendor) {
-        return res.json({ error: "Vendor already exists with this emailId" });
+        return res.status(400).json({ error: "Vendor already exists with this emailId" });
     }
 
     const salt = await GenerateSalt();
