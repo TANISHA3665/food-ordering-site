@@ -8,4 +8,4 @@ router.post('/vendor', CreateVendor);
 router.get('/vendor/:id', GetVendorById);
 router.get('/vendor', GetAllVendors);
 
-export { router as AdminRouter };
+export { router as AdminRoute };

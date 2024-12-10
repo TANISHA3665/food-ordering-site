@@ -1,2 +1,3 @@
-export * from './AdminRouter';
-export * from './VendorRouter';
+export * from './AdminRoute';
+export * from './VendorRoute';
+export * from './ShoppingRoute';

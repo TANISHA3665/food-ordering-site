@@ -34,4 +34,4 @@ router.post('/food', images, AddFood);
 
 router.get('/foods', GetFoods);
 
-export { router as VendorRouter };
+export { router as VendorRoute };
